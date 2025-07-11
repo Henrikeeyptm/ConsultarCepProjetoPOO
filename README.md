@@ -1,7 +1,8 @@
 Documentação do Projeto: Consulta de Endereço por CEP
 Versão: 1.0
 Data: 11 de julho de 2025
-Autor: Henrique José De Souza Nogueira
+Autor: Henrique José De Souza Nogueira e Romeu Pacheco
+
 
 1. Visão Geral
 Este projeto é uma aplicação simples em Java que consulta e exibe informações de endereço a partir de um CEP (Código de Endereçamento Postal). O objetivo principal é demonstrar na prática os conceitos fundamentais de Programação Orientada a Objetos (POO) — como Herança, Sobreposição e Encapsulamento — em um cenário real que envolve a integração com uma API externa e o gerenciamento de dependências com Maven.
