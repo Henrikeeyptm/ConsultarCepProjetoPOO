@@ -1,6 +1,10 @@
 Documentação do Projeto: Consulta de Endereço por CEP
-Versão: 1.0
+
+
+
 Data: 11 de julho de 2025
+
+
 Autor: Henrique José De Souza Nogueira e Romeu Pacheco
 
 
@@ -13,18 +17,42 @@ O programa solicita um CEP ao usuário, comunica-se com a API pública ViaCEP, p
 O código foi desenvolvido utilizando a estrutura padrão do Maven, que organiza o projeto de forma clara e facilita a automação de compilação e gerenciamento de bibliotecas.
 
 .
-├── pom.xml                         // Arquivo de configuração do Maven
+├── pom.xml     // Arquivo de configuração do Maven
+
+
 └── src/
+
+
     └── main/
+
+    
         └── java/
+
+        
             └── org/
+
+            
                 └── example/
+
+                
                     ├── modelo/     // Pacote para as classes de "domínio"
+
+                    
                     │   ├── Localizacao.java
+
+                    
                     │   └── Endereco.java
+
+                    
                     ├── servico/    // Pacote para a lógica de negócio e API
+
+                    
                     │   └── ConsultaCepService.java
+
+                    
                     └── Main.java   // Classe principal para executar o programa
+
+                    
 pom.xml: O coração do projeto Maven. Define as informações do projeto e, mais importante, suas dependências, como a biblioteca Gson.
 
 modelo: Agrupa as classes que representam os dados do nosso sistema (Localizacao, Endereco).
